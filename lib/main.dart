@@ -47,8 +47,15 @@ class _MyHomePageState extends State<MyHomePage> {
 
       /*The Text widget i used is here */
       body: Center(
+        child: Container(
+          width: 100.0,
+         height: 100.0,
+         color:Colors.red ,
+
         child: Text("Hello world  How are you?",
         style: TextStyle(fontWeight:FontWeight.bold ),
+          textAlign: TextAlign.left,
+        ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
